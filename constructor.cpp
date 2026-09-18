@@ -11,12 +11,11 @@ Demo(int a){ //parameterized constructor
     cout<<"I am parameterized constructor:"<<a<<endl; 
 }
 Demo(int a, int b){  //constructor overloading
-    cout<<a<<endl<<b<<endl;
+    cout<<a<<b<<endl;
 }
 Demo(string c){
     cout<<c<<endl;
 }
-
 };
 
 int main(){
@@ -24,5 +23,6 @@ int main(){
     Demo obj1(3);
     Demo obj2(6,9);
     Demo obj3("Acalaya");
+    
     return 0;
 } 

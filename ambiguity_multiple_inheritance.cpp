@@ -15,9 +15,8 @@ class Base2{
     }
 };
 class Child:public Base1,public Base2{
-
-
 };
+
 //solving ambiguity in multiple inheritance
 int main(){
     Child c1;
