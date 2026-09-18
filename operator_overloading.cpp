@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-
 class A{
     int a,b;
     public:
@@ -16,13 +15,10 @@ class A{
         cout<<a<<endl;
         cout<<b<<endl;
     }
-
 };
-
-
 int main(){
     A obj(2,3);
-    obj.display();
+  //  obj.display();
     -obj; //operator overloading call
     obj.display();
 
